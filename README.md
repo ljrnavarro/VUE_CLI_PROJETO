@@ -1,5 +1,4 @@
-# projectschool
-
+# Projeto VUE com integração .NET
 ## Project setup
 ```
 yarn install
