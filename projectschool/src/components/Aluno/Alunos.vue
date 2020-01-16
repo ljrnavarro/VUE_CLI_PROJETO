@@ -24,7 +24,7 @@
     <table>
       <thead>
         <th>Mat.</th>
-        <th>Aluno</th>
+        <th>Nome</th>
         <th>Opções</th>
       </thead>
       <tbody v-if="alunos.length">
@@ -96,6 +96,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 input {
+  width: calc(50% - 115px);
   border: 0;
   padding: 20px;
   font-size: 1.3em;
@@ -115,5 +116,17 @@ input {
   padding: 20px;
   margin: 0px;
   border: 0px;
+}
+
+table tr td {
+    padding: 20px;
+    font-size: 1.3em;
+    background-color: #e0edf4;
+    margin-bottom: 2px;
+    color: #3e5252;
+    text-align: center;
+    padding-left: 1px;
+    margin: 2px;
+    padding-right: 1px;
 }
 </style>
