@@ -2,7 +2,7 @@
     <div class="barraTop">
         <nav class="marginPrincipal">
             <a href="">Professores</a>
-            <a href="">Alunos</a>
+            <a href="./Alunos">Alunos</a>
             <a href="">Sobre</a>
         </nav>
     </div>
