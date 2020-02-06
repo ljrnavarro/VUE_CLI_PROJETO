@@ -2,9 +2,7 @@
   <div id="app">
     <Nav></Nav>
     <div class="marginPrincipal">
-     <!-- <Alunos /> -->
-     <!--<Professores/> -->
-     <Sobre />
+    <router-view></router-view>
     </div>
   </div>
 </template>
