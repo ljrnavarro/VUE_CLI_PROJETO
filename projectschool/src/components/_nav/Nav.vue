@@ -1,9 +1,9 @@
 <template>
     <div class="barraTop">
         <nav class="marginPrincipal">
-            <a href="">Professores</a>
-            <a href="./Alunos">Alunos</a>
-            <a href="">Sobre</a>
+            <router-link to="/professores">Professores</router-link>
+            <router-link to="/alunos">Alunos</router-link>
+            <router-link to="/sobre" href="">Sobre</router-link>
         </nav>
     </div>
 </template>
@@ -33,6 +33,9 @@
      font-weight: bold;
      margin-right: 15px;
   }
-
+ nav .router-link-active{
+   background-color: rgb(160,160,160);
+   color: white;
+ }
 
 </style>
